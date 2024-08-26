@@ -31,15 +31,19 @@ header {
     display: flex;
     gap: 10vh;
     align-items: center;
+    max-width: 100%;
+    padding: 15vh;
+    margin-left: 5vh;
+    padding-bottom: 35vh;
 }
 #tittle1{
-    font-size: 5vh;
+    font-size: 8vh;
     padding-bottom: 3vh;
-    max-width: 30%;
+    max-width: 60%;
 }
 .text1{
     font-size: 1.7vh;
-    max-width: 30%;
+    max-width: 50%;
     padding-bottom: 2vh;
 }
 #seccion1 button{
@@ -48,6 +52,85 @@ header {
     padding-left: 4vh;
     padding-right: 4vh;
     font-size: larger;
+    font-weight: 800;
    background-color: #F5CB00;
    border: none;
 }
+
+#seccion1 img{
+    width: 70vh;
+}
+#text1{
+    max-width:  100vh;
+}
+#section2{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    background-color: #E6E6E6;
+    width: 70%;
+    margin-left: 13%;
+    margin-top: -25vh;
+    box-shadow: 20px 8px 10px rgba(0, 0, 0, 0.171);
+    
+}
+#imgsection2{
+    display: flex;
+    position: absolute;
+    gap: 10vh;
+    margin-left: 35%;
+   
+}
+#section2 article{
+    padding: 7vh;
+}
+#section2 h2{
+   font-size: 5vh;
+   max-width: 35vh;
+   padding-bottom: 3vh;
+}
+#section2 p{
+    max-width: 35vh;
+    padding-bottom: 2vh;
+}
+#section2 a{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+#section3{
+    
+    background-color: #F5CB00;
+    padding-top: 30vh;
+    position: relative;
+}
+#section3 h2{
+    font-size: 8vh;
+    padding-left: 10vh;
+    max-width: 90vh;
+}
+#section3 P{
+    padding-top: 5vh;
+    font-size: 2vh;
+    padding-left: 11vh;
+    max-width: 70vh;
+    padding-bottom: 5vh;
+}
+#section3 button{
+   
+    font-size: 2vh;
+    margin-left: 11vh;
+    width: 18vh;
+    padding: 1vh;
+    background-color: black;
+    color: white;
+}
+#imgsection3{
+display: flex;
+justify-content: end;
+margin-top: -25vh;
+margin-right: 45vh;
+}
+
+
+
