@@ -104,10 +104,11 @@ header {
     padding-top: 30vh;
     position: relative;
 }
-#section3 h2{
-    font-size: 8vh;
-    padding-left: 10vh;
+#section3 h2 {
+    font-size: 5vh;
+    padding-left: 5vh;
     max-width: 90vh;
+    padding-top: 3vh;
 }
 #section3 P{
     padding-top: 5vh;
@@ -491,11 +492,13 @@ margin-left: 5vh;
             box-shadow: 20px 8px 10px rgba(0, 0, 0, 0.171);
         }
         #section2 article {
-            padding: 7vh;
+             padding: 3vh; 
             display: flex;
             flex-direction: column;
-            padding-right: 11vh;
+            max-width: 49%;
+       
         }
+
         #section3 h2 {
             font-size: 5vh;
             padding-left: 5vh;
@@ -516,15 +519,14 @@ margin-left: 5vh;
             background-color: black;
             color: white;
         }
-        #imgsection2 {
-            display: flex;
-            position: absolute;
-            margin-left: 62%;
-            margin-top: 23vh;
-            max-width: 27vh;
-            gap: 0;
-        }
-      
+      #imgsection2 {
+    display: flex;
+    position: absolute;
+    margin-left: 54%;
+    margin-top: 18vh;
+    max-width: 27vh;
+    gap: 0;
+}
         #imgsection3 {
             display: flex;
             justify-content: center;
@@ -533,4 +535,114 @@ margin-left: 5vh;
             margin-top: 4vh;
             margin-left: 28vh;
         }
+        #section4 {
+            display: flex;
+            width: 70%;
+            flex-direction: column;
+            margin-top: 15vh;
+            justify-content: center;
+            margin-left: 15%;
+            background-color: #E6E6E6;
+            box-shadow: 20px 8px 10px rgba(0, 0, 0, 0.171);
+            margin-bottom: 15vh;
+        }
+        #imgsection4 img {
+            width: 100%;
+            margin-right: 0vh;
+        }
+        #section4 h2 {
+            color: #F5CB00;
+            font-size: 5vh;
+        }
+        #textsection4 {
+            margin-top: 6vh;
+            text-align: center;
+            max-width: 80%;
+            margin-left: 3vh;
+        }
+        #grahp {
+            margin-top: 5vh;
+         
+            margin-left: 6vh;
+        }
+        #section5 img {
+          max-width: 100%;
+        }
+        #section6 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 5vh;
+        }
+        #imgsection6 img {
+            max-width: 38vh;
+        }
+        #imgsection6 {
+            padding: 6vh;
+           
+        }
+        #textsection6 {
+            max-width: 70%;
+            margin-left: 12vh;
+        }
+        .textsection7 {
+            max-width: 100%;
+            margin-right: 20vh;
+            margin-left: 10vh;
+        }
+        #section7 {
+            display: flex;
+            flex-direction: column;
+            background-color: #E6E6E6;
+            padding: 10vh;
+            align-items: center;
+        }
+        #imgsection7 img{
+            max-width: 100%;
+        }
+        .textsection8 {
+            max-width: 54vh;
+            margin-left: 15%;
+            margin-top: -76vh;
+            padding-bottom: 43vh;
+        }
+        #sct8 {
+            margin-bottom: 20vh;
+            display: flex;
+            flex-direction: column;
+        }
+        #section8 {
+            width: 500px;
+            height: 667px;
+            padding: 33px;
+            padding-top: 4vh;
+            margin-top: 60vh;
+            margin-left: 15vh;
+            background-color: black;
+        }
+        .textsection8 {
+            max-width: 54vh;
+            margin-left: 10%;
+            margin-top: -142vh;
+            padding-bottom: 79vh;
+        }
+
+        #maps iframe {
+            width: 100%;
+            height: 450px;
+            margin-right: 15%;
+        }
+        #redes {
+            display: flex;
+            margin-left: 5%;
+        }
+        #textsection9 p {
+            padding-bottom: 5vh;
+            font-size: 2vh;
+            max-width: 50vh;
+        }
+        footer img {
+            padding: 1vh;
+        }
+        
     }
