@@ -126,12 +126,12 @@ header {
     background-color: black;
     color: white;
 }
-#imgsection3{
-display: flex;
-justify-content: end;
-margin-top: -25vh;
-margin-right: 40vh;
-padding-bottom: 15vh;
+#imgsection3 {
+    display: flex;
+    justify-content: end;
+    margin-top: -20vh;
+    margin-right: 34vh;
+    padding-bottom: 15vh;
 }
 #section4 {
     display: flex;
