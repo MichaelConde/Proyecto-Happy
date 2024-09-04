@@ -8,6 +8,9 @@ header {
     display: flex;
     background-color: #F5CB00;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 #menu img{
     padding: 1vh;
