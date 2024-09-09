@@ -443,12 +443,20 @@ margin-left: 5vh;
             padding: 1vh;
             padding-left: 2vh;
         }
+        #menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 1vh;
+        }
         #opt {
             display: flex;
+            flex-direction: column;
             justify-content: end;
-            flex-grow: 2;
-            padding-right: 5vh;
-            gap: 2vh;
+            flex-grow: 0;
+            padding-right: 2vh;
+            gap: 1vh;
         }
         #seccion1 {
             display: flex;
@@ -487,19 +495,32 @@ margin-left: 5vh;
         #section2 {
             display: flex;
             position: absolute;
+            flex-direction: column;
             z-index: 1;
             background-color: #E6E6E6;
-            width: 82%;
-            margin-left: 9%;
-            margin-top: -25vh;
+            width: 90%;
+            height: 91vh;
+            margin-left: 3%;
+            margin-top: -29vh;
             box-shadow: 20px 8px 10px rgba(0, 0, 0, 0.171);
         }
         #section2 article {
-             padding: 3vh; 
+            padding: 2vh;
             display: flex;
             flex-direction: column;
-            max-width: 49%;
-       
+            max-width: 47%;
+        }
+        #imgsection2{
+            margin-right: 2vh;
+        }
+        #textsection2 {
+            margin-top: 32vh;
+        }
+    
+
+        #imgsection2 img {
+            max-width: 14vh;
+            padding-top: 9vh;
         }
 
         #section3 h2 {
@@ -530,14 +551,19 @@ margin-left: 5vh;
     max-width: 27vh;
     gap: 0;
 }
-        #imgsection3 {
-            display: flex;
-            justify-content: center;
-            padding-bottom: 7vh;
-            height: 40vh;
-            margin-top: 4vh;
-            margin-left: 28vh;
-        }
+#imgsection3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7vh;
+    height: 33vh;
+    margin-top: 4vh;
+   
+    max-width: 100%;
+}
+#imgsection3 img {
+    max-width: 40vh;
+    margin-left: 37vh;
+}
         #section4 {
             display: flex;
             width: 70%;
@@ -565,9 +591,9 @@ margin-left: 5vh;
         }
         #grahp {
             margin-top: 5vh;
-         
-            margin-left: 6vh;
+            margin-left: 2vh;
         }
+    
         #section5 img {
           max-width: 100%;
         }
@@ -578,20 +604,21 @@ margin-left: 5vh;
             margin-right: 5vh;
         }
         #imgsection6 img {
-            max-width: 38vh;
+            max-width: 34vh;
+            margin-top: 5vh;
         }
         #imgsection6 {
-            padding: 6vh;
-           
+            padding: 3vh;
         }
         #textsection6 {
             max-width: 70%;
-            margin-left: 12vh;
+            margin-left: 9vh;
         }
         .textsection7 {
             max-width: 100%;
             margin-right: 20vh;
-            margin-left: 10vh;
+            margin-left: 0vh;
+            padding-left: 8vh;
         }
         #section7 {
             display: flex;
@@ -603,11 +630,9 @@ margin-left: 5vh;
         #imgsection7 img{
             max-width: 100%;
         }
-        .textsection8 {
-            max-width: 54vh;
-            margin-left: 15%;
-            margin-top: -76vh;
-            padding-bottom: 43vh;
+        .textsection8 h2 {
+            font-size: 5vh;
+            color: #F5CB00;
         }
         #sct8 {
             margin-bottom: 20vh;
@@ -615,25 +640,25 @@ margin-left: 5vh;
             flex-direction: column;
         }
         #section8 {
-            width: 500px;
-            height: 667px;
-            padding: 33px;
-            padding-top: 4vh;
-            margin-top: 60vh;
-            margin-left: 15vh;
+            width: 100%;
+            max-width: 65%;
+            height: 93vh;
+            padding: 10px;
+            padding-top: 0vh;
+            margin-top: 63vh;
+            margin-left: 0vh;
             background-color: black;
         }
         .textsection8 {
             max-width: 54vh;
-            margin-left: 10%;
-            margin-top: -142vh;
-            padding-bottom: 79vh;
+            margin-left: 6%;
+            margin-top: -159vh;
+            padding-bottom: 108vh;
         }
-
         #maps iframe {
             width: 100%;
             height: 450px;
-            margin-right: 15%;
+            margin-right: 8%;
         }
         #redes {
             display: flex;
@@ -646,6 +671,18 @@ margin-left: 5vh;
         }
         footer img {
             padding: 1vh;
+        }
+        #options {
+            display: flex;
+            padding: 0vh;
+            gap: 12vh;
+        }
+        footer p {
+            color: #F5CB00;
+            margin-left: 1vh;
+        }
+        footer img {
+            padding: 4px;
         }
         
     }
